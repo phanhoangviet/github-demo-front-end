@@ -1,0 +1,49 @@
+
+
+h2{
+    padding: 10px;
+    color:whitesmoke; /*màu chữ*/
+    background-color:black;/*màu nền của chữ*/
+    font-family: 'Source Serif Pro', serif;/* font chữ */
+    font-weight: lighter;/*độ giày mỏng của chữ*/
+    /* font-size: ;
+    font-style: ;/* in đậm;in nghiêng; bình thường*/
+    /* text-transform: ;/* biến đổi từ trong câu */
+    text-align: center;/*căn giữa*/  
+}
+div
+{
+    width :400px;
+    border: 2px solid red;/* Tạo viền cho ảnh */
+    margin: 20px 30px ;
+}
+span
+{
+    padding: 10px;
+}
+p{
+    
+    padding:10px 0px 10px 20px  ;
+}
+
+/* gán class cho 1 mục <-> Mỗi div thì có nhiều class */
+.mayanh{
+    margin: 10px auto 50px auto;
+    
+}
+/* gán id cho 1 mục <-> Mỗi div thì chỉ cỏ 1 id <-->độ ưu tiên của id lớn hơn class */
+
+#demo{
+    
+}
+.text
+{
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    color: tomato;
+    font-size: 50px;
+    white-space: nowrap;/*tất cả chỉ nằm trên 1 dòng*/
+    overflow: hidden;/* Ẩn những từ dài hơn */
+    text-overflow: ellipsis;/* hiện dấu ... cuối câu khi mà câu bị ẩn đi */
+}
