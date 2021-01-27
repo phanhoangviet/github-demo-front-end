@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/tong-hop-hinh-nen-background-vector-designer-dep-do-phan-giai-fhd-2k-4k-moi-nhat-2.jpg);
+    
+    background-size: 100%;
+    
+}
+
+.container{
+    color: white;
+    position: absolute;;
+    /* top: 50%; KHÔNG TỰ ĐỘNG CĂN GIỮA */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: flex;
+    border: 2px dashed white;
+    padding: 10px;
+    font-size: 30px;
+    
+}
+.smalltext{
+	padding: 30px;
+	font-size: 50px;
+}

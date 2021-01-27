@@ -45,5 +45,5 @@ p{
     font-size: 50px;
     white-space: nowrap;/*tất cả chỉ nằm trên 1 dòng*/
     overflow: hidden;/* Ẩn những từ dài hơn */
-    text-overflow: ellipsis;/* hiện dấu ... cuối câu khi mà câu bị ẩn đi */
+    text-overflow: ellipsis;/*hiện dấu ... cuối câu khi mà câu bị ẩn đi */
 }

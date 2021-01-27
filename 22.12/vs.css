@@ -1,0 +1,42 @@
+.red
+{
+    height: 280px;
+    width: 200px;
+    background-color: red;
+}
+.blue
+{
+    height: 200px;
+    width: 200px;
+    background-color:#03a9f4;
+
+}
+.green
+{
+    height: 260px;
+    width: 240px;
+    background-color: green;
+}
+.block1
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.block2
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.block3
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block3 .red
+{
+    margin-left: 200px;
+}
